@@ -1,0 +1,119 @@
+Register address (hex),ebus ID,short name ,description,service menu  (from sensys manual),Ariston Class Premium Evo
+,,,,,
+00c0,c000,pump_speed,Pump speed level,8.2.3,yes
+00c3,c300,pump_modulation,% pump modulation,8.2.7,yes
+0100,0001,diverter_value,"Diverter valve position (0-DHW(Domestic hot water), 1-heating)",8.2.4,yes
+04c1,c104,flame power ?,,,
+04c4,c404,sensys_c404,,,
+,,,,,
+1062,6210,cwu_temp,"Temperatura CWU chyba 8.3.3, zawsze 0",,
+1065,6510,CWU measured temp?,,,
+1068,6810,heating_temp_out,Heating flow temperature,8.3.1,yes
+1069,6910,heating_temp_return,Heating return temperature,8.3.2,yes
+110e,0e11,,,,
+12c0,c012,sensys_c012,,,maybe
+1340,4013,fan_rpm,Fan speed x 100 RPM,8.2.2,yes
+1763,6317,night_temp?,,,
+,,,,,
+1871,7118,room temp Z1,,,
+1872,7218,room temp Z2,,,
+1873,7318,room temp Z3,,,
+1874,7418,room temp Z3,,,
+1875,7518,room temp Z5,,,
+1901,0119,,,,
+1902,0219,,,,
+1903,0319,,,,
+1904,0419,,,,
+1905,0519,,,,
+1906,0619,,,,
+1907,0719,,,,
+190c,0c19,heating in progress?,,,
+,,,,,
+2001,0120,winter_mode,,,
+2002,0220,cwu_mode,,,
+2005,0520,auto_mode,,,
+2661,6126,cwu_temp,Domestic hot water temperature settings,2.0.0,
+2664,6426,przeciwzamrozeniowa strwfy 2,,,
+266d,6d26,boiler bc,,,
+28c0,c028,comfort mode?,,,
+28c3,c328,,,,
+28c4,c428,,,,
+,,,,,
+40d1,d140,,,,
+4102,0241,sensys_0241,,,
+4502,0245,sensys_0245,,,
+4504,0445,fan_state,"Fan status 0-off, 1-on",8.2.1,yes
+46d7,d746,,,,
+46da,da46,,,,
+46da,da46,,,,
+46dc,dc46,,,,
+46dc,dc46,,,,
+46de,de46,,,,
+46de,de46,,,,
+4760,6047,heating_temp,co_set_temp,,
+4761,6147,cwu_temp,cwu (dhw) set temp,?,
+4768,6847,gas power ?,,,
+4775,7547,bolier pressure ? not,,,
+4776,7647,boiler bc,external temp ?,,
+4bc0,c04b,boiler_status,,,
+,,,,,
+7162,6271,day_temp,day_temp_Z1,,yes
+7163,6371,night_temp,night_temp_Z1,,yes
+7164,6471,boiler bc,,,
+7165,6571,boiler bc,,,
+7262,6272,set temp z2 5.0.0 T dzienna?,day_temp_Z2,,yes
+7263,6372,5.0.1 t nocna,night_temp_Z2,,yes
+7264,6472,boiler bc,,,
+7265,6572,ust strafa 5..0.2,,,
+7360,6073,,max_temp_Z3,,yes
+7361,6173,,min_temp_Z3,,yes
+7362,6273,,day_temp_Z3,,yes
+7363,6373,,night_temp_Z3,,yes
+7364,6473,boiler bc,heating_offset_Z3,,yes
+7365,6573,boiler bc,heat_set_temp_Z3,,yes
+79c0,c079,typ termoregulacji?,,,
+79c6,c679,boiler bc,,,
+7ac6,c67a,boiler bc,,,
+7bc6,c67b,boiler bc,,,
+,,,,,
+8100,0081,temp_range_Z1,Temperature range 0-high;1=low,4.2.0,yes
+8200,0082,temp_range_Z2,Temperature range 0-high;1=low,5.2.0,yes
+8300,0083,temp_range_Z3,Temperature range 0-high;1=low,6.2.0,yes
+8400,0084,temp_range_Z4,Temperature range 0-high;1=low,,
+8500,0085,temp_range_Z5,Temperature range 0-high;1=low,,
+,,,,,
+9009,0990,,,,
+900a,0a90,,,,
+900c,0c90,,,,
+900d,0d90,,,,
+900e,0e90,,,,
+900f,0f90,boiler bc,,,
+9101,0191,heat_request_z1,z1 heat request?,,yes
+9102,0291,heat_request_z2,,,
+9103,0391,heat_request_z3,,,
+9104,0491,heat_request_z4,,,
+9105,0591,heat_request_z5,,,
+9106,0691,heat_request_z6,,,
+9107,0791,heat_request_z7,,,
+94c3,c394,,,,
+9761,6197,temp_Z1?,,,
+9762,6297,temp_Z2?,,,
+9763,6397,temp_Z3?,,,
+9764,6497,,,,
+9765,6597,,,,
+9766,6697,,,,
+9767,6797,,,,
+976b,6b97,,,,
+976c,6c97,,,,
+976d,6d97,,,,
+976e,6e97,,,,
+976f,6f97,,,,
+9779,7997,,,,
+977a,7a97,,,,
+977b,7b97,,,,
+977c,7c97,,,,
+977d,7d97,,,,
+977e,7e97,,,,
+977f,7f97,,,,
+d842,42d8,ign cycles?,,,
+8107,0781,,,,
